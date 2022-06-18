@@ -51,21 +51,14 @@ article {
 }
 .main div {
     height: 100%;
-    width: 55%;
+    width: 50%;
     float: left;
-}
-section {
-    width: 97%;
-    height: 50%;
-    margin-bottom: 15px; 
-    margin-left: 20px;
 }
 aside {
     padding-bottom: 15px;
     float: right;
-    width: 45%;
+    width: 50%;
     height: 100%;
-    
 }
 body {
     background-image: url(/cssdayfive/img/1k.jpg);
@@ -112,13 +105,6 @@ ul {
     display: grid;
     padding-top: 6px;
 }
-.leftcoulumn {
-    height: 100%;
-    width: 50%;
-    float: left;
-}
-.rightcoulumn {
-    height: 100%;
-    width: 50%;
+aside {
     float: right;
 }
