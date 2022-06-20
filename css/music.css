@@ -15,28 +15,46 @@ nav {
 h1 {
     text-align: center;
 }
-li {
+.song {
+    color: black;
+    display: inline;
+    font-size: 200%;
+    padding: 15px;
+}
+.song a:hover {
+    color: green;
+}
+.song a:link {
+    color: black;
+}
+.song a:visited {
+    color: black;
+}
+.song a:active {
+    color: rgb(44, 44, 44);
+}
+.topnavbar {
     display: inline;
     font-size: 200%;
     padding: 15px;
     color: white;
 }
 /* unvisited link */
-li a:link {
+ a:link {
     text-decoration: none;
 }
 /* hover */
-li a:hover {
+.topnavbar a:hover {
     text-decoration: none;
     background-color: rgb(93, 93, 93);
 }
 /* visited */
-li a:visited {
+.topnavbar a:visited {
     color: rgb(196, 196, 196);
     text-decoration: none;
 }
 /* selected link */
-li a:active {
+.topnavbar a:active {
     text-decoration: none;
     color: white;
 }
@@ -117,8 +135,8 @@ aside {
     float: right;
 }
 .ressurectedcover {
-    height: 300px;
-    width: 300px;
+    max-width: 300px;
+    max-height: 300px;
     display: block;
     margin-left: auto;
     margin-right: auto;
