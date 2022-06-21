@@ -2,7 +2,6 @@ header, nav {
     width: 100%;
     height: 45px;
     background: rgb(0, 0, 0);
-    margin: 15px auto;
     opacity: .9;
     color: white;
 }
@@ -83,12 +82,10 @@ p {
     margin: 15px auto;
 }
 .container {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    background-color: black;
+    background-color: rgb(146, 84, 84);
     color: aliceblue;
-    font: 20px;
-    margin-top: 33px;
+    margin-top: 330px;
+    width: 100%;
 }
 ul {
     list-style: none;
@@ -97,20 +94,9 @@ ul {
     color: rgb(182, 177, 177);
     font-size: 24px;
 }
-.vbtm li a {
-    color: white;
-    font-size: 13px;
-    text-decoration: none;
-    display: grid;
-}
-.vbtm li a:hover {
-    color: green;
-}
-.sub {
-    font-size: 13px;
-    color: white;
-    display: grid;
-    padding-top: 6px;
+.vbtm {
+    display: inline;
+    list-style: none;
 }
 .leftcoulumn {
     height: 100%;
@@ -121,4 +107,20 @@ ul {
     height: 100%;
     width: 50%;
     float: right;
+}
+.vids {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.btmlinks {
+    font-size: 125%;
+    color: rgb(182, 177, 177);
+}
+.btmlinks a:link, a:hover, a:visited, a:active {
+    color: rgb(182, 177, 177);
+}
+.btmlinks {
+    color: rgb(182, 177, 177);
+    display: inline-block;
 }
