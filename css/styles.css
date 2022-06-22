@@ -16,36 +16,36 @@ nav {
     z-index: 10;
     top: 0;
 }
-li {
+.topnavbar {
     display: inline;
     font-size: 200%;
-    padding: 10px;
+    padding: 15px;
     color: white;
 }
 /* unvisited link */
-li a:link {
+ a:link {
     text-decoration: none;
 }
 /* hover */
-li a:hover {
+.toplist li a:hover {
     text-decoration: none;
-    color: rgb(196, 196, 196);
+    color: rgb(0, 0, 0);
 }
 /* visited */
-li a:visited {
+.topnavbar a:visited {
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
 /* selected link */
-li a:active {
+.toplist li a:active {
     text-decoration: none;
-    color: rgb(255, 0, 0);
+    color: rgb(106, 106, 106);
 }
-article {
+/* article {
     background: rgb(60, 60, 60);
     width: 97%;
     height: 50%;
-}
+} */
 .main {
     width: 100%;
     height: 485px;
@@ -56,12 +56,12 @@ article {
     width: 55%;
     float: left;
 }
-section {
+/* section {
     width: 97%;
     height: 50%;
     margin-bottom: 15px; 
     margin-left: 20px;
-}
+} */
 aside {
     padding-bottom: 15px;
     float: right;
@@ -71,23 +71,31 @@ aside {
 }
 body {
     background-image: url(/cssdayfive/img/1k.jpg);
+    background-size: 31%;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 header {
     text-align: center;
-    font-size: 250%;
+    font-size: 275%;
+    width: 100%;
+    height: 65px;
+    background: rgb(0, 0, 0);
+    opacity: .9;
+    color: white;
 }
-article {
+/* article { */
 /* padding-left: 10px; */
 /* padding-right: 10px; */
-text-align: left;
-}
+/* text-align: left; */
+/* } */
 p {
     margin: 15px auto;
 }
 .container {
     background-color: rgb(0, 0, 0);
     color: aliceblue;
-    margin-top: 36%;
+    margin-top: 32%;
     width: 100%;
 }
 ul {
@@ -101,6 +109,14 @@ ul {
     display: inline;
     list-style: none;
 }
+.vbtm li a {
+    padding: 15px;
+    text-decoration: none;
+    display: grid;
+}
+.vbtm li a:hover {
+    color: rgb(172, 0, 0);
+}
 .leftcoulumn {
     height: 100%;
     width: 50%;
@@ -110,11 +126,6 @@ ul {
     height: 100%;
     width: 50%;
     float: right;
-}
-.vids {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
 }
 .btmlinks {
     font-size: 125%;
@@ -137,4 +148,11 @@ ul {
 .socilinks {
     color: rgb(182, 177, 177);
     display: inline-block;
+}
+.ytvids {
+    display: inline;
+    padding: 8px;
+}
+.ytvideos {
+    margin-top: 5%;
 }
