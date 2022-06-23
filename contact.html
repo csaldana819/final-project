@@ -11,31 +11,40 @@
 <body>
     <header>Ressurected Listen Now</header>
     <nav>
-            <ul>
-                <li><a href="/final-project/index.html">Home</a></li>
-                <!-- add dropdown -->
-                <li><a href="/final-project/music.html">Music</a></li>
-                <li><a href="https://www.youtube.com/c/StayChiefinTv/videos">Videos</a></li>
-                <li><a href="/final-project/tour.html">Tour</a></li>
-                <li><a href="/final-project/shop.html">Shop</a></li>
-                <li><a href="/final-project/about.html">About Me</a></li>
-            </ul>
-    </nav>
-        <div class="contactbox">
-            <form action="action_page.php">
+      <ul class="toplist">
+          <li class="topnavbar"><a href="/final-project/index.html">Home</a></li>
+          <!-- add dropdown -->
+          <li class="topnavbar"><a href="/final-project/music.html">Music</a></li>
+          <li class="topnavbar"><a href="/final-project/videos.html">Videos</a></li>
+          <li class="topnavbar"><a href="/final-project/tour.html">Tour</a></li>
+          <li class="topnavbar"><a href="/final-project/shop.html">Shop</a></li>
+          <li class="topnavbar"><a href="/final-project/about.html">About Me</a></li>
+      </ul>
+</nav>
+             <div class="contactarea">
+              <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104087.19883469811!2d-119.24277913750001!3d35.38727689999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ea43a0baef2d7b%3A0xecebd735fc62f4a5!2sFirehouse%20Rosedale%20Station!5e0!3m2!1sen!2sus!4v1655953879166!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+                <div class="contactbox">
+                  <form action="action_page.php">
           
               <!-- <label for="fname">First Name</label> -->
               <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+              
           
-              <label for="lname"></label>
+              <!-- <label for="lname"></label> -->
               <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              <input type="email" id="email" name="emailaddress" placeholder="Email Address..">
+              
           
-              <!-- <label for="country">Last Name</label> -->
-              <select id="country" name="country">
+              <!-- Email label -->
+              <!-- <select id="country" name="country">
                 <option value="Mexico">Mexico</option>
                 <option value="canada">Canada</option>
                 <option value="usa">United States</option>
-              </select>
+              </select> -->
+
+              <!-- <label for="lname"></label> -->
+              
 
               <!-- <label for="subject">Subject</label> -->
               <textarea id="subject" name="subject" placeholder="Tell 1k Watts Something.." style="height:200px"></textarea>
@@ -43,8 +52,10 @@
               <input type="submit" value="Submit">
           
             </form>
+            
           </div>
-
+          
+        </div>
 
           <div class="container">
             <ul class="vbtm">
