@@ -136,7 +136,7 @@ ul {
 .vbtm li a {
     padding: 15px;
     text-decoration: none;
-    display: grid;
+    display: inline-block;
 }
 .vbtm li a:hover {
     color: rgb(172, 0, 0);

@@ -72,6 +72,9 @@ aside {
 }
 body {
     background-image: url(/cssdayfive/img/1k.jpg);
+    background-size: 31%;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 header {
     text-align: center;
@@ -118,9 +121,9 @@ ul {
     width: 50%;
 }
 .vbtm li a {
-    /* padding: 15px; */
+    padding: 5px;
     text-decoration: none;
-    display: grid;
+    display: inline-block;
 }
 .vbtm li a:hover {
     color: rgb(172, 0, 0);
