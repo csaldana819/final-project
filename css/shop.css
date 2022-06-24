@@ -1,7 +1,22 @@
+body {
+    background-image: url(/cssdayfive/img/1k.jpg);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
 header, nav {
     margin-top: -10px;
     width: 100%;
     height: 45px;
+    background: rgb(0, 0, 0);
+    opacity: .9;
+    color: white;
+}
+header {
+    text-align: center;
+    font-size: 275%;
+    width: 100%;
+    height: 65px;
     background: rgb(0, 0, 0);
     opacity: .9;
     color: white;
@@ -41,69 +56,15 @@ nav {
     text-decoration: none;
     color: rgb(106, 106, 106);
 }
-/* article {
-    background: rgb(60, 60, 60);
-    width: 97%;
-    height: 50%;
-} */
-.main {
-    width: 100%;
-    height: 485px;
-    margin-bottom: 15px;
-}
-.main div {
-    height: 100%;
-    width: 55%;
-    float: left;
-}
-/* section {
-    width: 97%;
-    height: 50%;
-    margin-bottom: 15px; 
-    margin-left: 20px;
-} */
-aside {
-    padding-bottom: 15px;
-    float: right;
-    width: 50%;
-    height: 100%;
-    
-}
-body {
-    background-image: url(/cssdayfive/img/1k.jpg);
-    background-size: 31%;
-    background-repeat: no-repeat;
-    background-position: bottom;
-}
-header {
-    text-align: center;
-    font-size: 275%;
-    width: 100%;
-    height: 65px;
-    background: rgb(0, 0, 0);
-    opacity: .9;
-    color: white;
-}
-/* article { */
-/* padding-left: 10px; */
-/* padding-right: 10px; */
-/* text-align: left; */
-/* } */
-p {
-    margin: 15px auto;
-}
 .container {
     background-color: rgb(0, 0, 0);
     color: aliceblue;
-    margin-top: 3%;
     width: 100%;
+    margin-top: 0px;
+    margin-bottom: -7px;
 }
 ul {
     list-style: none;
-}
-.first {
-    color: rgb(182, 177, 177);
-    font-size: 24px;
 }
 .vbtm {
     display: inline;
@@ -113,7 +74,6 @@ ul {
     padding: 5px;
     text-decoration: none;
     display: inline-block;
-    
 }
 .vbtm li a:hover {
     color: rgb(172, 0, 0);
@@ -121,16 +81,7 @@ ul {
 .vbtm li a:active {
     color: rgb(255, 0, 0);
 }
-.leftcoulumn {
-    height: 100%;
-    width: 50%;
-    float: left;
-}
-.rightcoulumn {
-    height: 100%;
-    width: 50%;
-    float: right;
-}
+
 .btmlinks {
     font-size: 125%;
     color: rgb(182, 177, 177);
@@ -152,24 +103,4 @@ ul {
 .socilinks {
     color: rgb(182, 177, 177);
     display: inline-block;
-}
-.ytvids {
-    display: inline;
-    padding: 8px;
-}
-.ytvideos {
-    margin-top: 5%;
-}
-.frontpagebody {
-    margin-top: 50px;
-    width: 100%;
-    height: 500px;
-}
-.left {
-    width: 50%;
-    float: left;
-}
-.right {
-    width: 50%;
-    float: right;
 }

@@ -71,9 +71,9 @@ aside {
 } */
 body {
     background-image: url(/cssdayfive/img/1k.jpg);
-    background-size: 31%;
+    background-size: 20%;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: bottom right;
 }
 header {
         text-align: center;
@@ -97,6 +97,7 @@ p {
     color: aliceblue;
     width: 100%;
     margin-top: 0px;
+    margin-bottom: -7px;
 }
 ul {
     list-style: none;
@@ -158,13 +159,24 @@ aside {
 input[type=text], input[type=email], select, textarea {
     width: 60%; /* Full width */
     padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
+    border: .5px solid rgb(201, 197, 197); /* Gray border */
+    border-radius: 16px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 16px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    margin-left: 20%;
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  input[type=submit] {
+    width: 30%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid rgb(201, 197, 197); /* Gray border */
     border-radius: 16px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
-    margin-left: 20%;
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    margin-left: 35%;
+    resize: vertical
   }
   .contactarea {
     width: 100%;
