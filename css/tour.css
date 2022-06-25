@@ -2,7 +2,7 @@ body {
     background-image: url(/cssdayfive/img/1k.jpg);
     background-size: 20%;
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom;
 }
 header, nav {
     margin-top: -10px;
@@ -56,12 +56,15 @@ nav {
     text-decoration: none;
     color: rgb(106, 106, 106);
 }
+section {
+    padding-top: 10px;
+}
 .container {
     background-color: rgb(0, 0, 0);
     color: aliceblue;
     width: 100%;
     margin-top: 0px;
-    margin-bottom: -7px;
+    margin-bottom: -8px;
 }
 ul {
     list-style: none;
@@ -109,7 +112,7 @@ ul {
 }
 .arena li {
     display: inline;
-    margin-right: 15%;
+    margin-right: 30px;
 }
 .dates li {
     font-style: oblique;

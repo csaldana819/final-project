@@ -55,7 +55,7 @@ h1 {
 /* hover */
 .toplist li a:hover {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(48, 48, 48);
 }
 /* visited */
 .topnavbar a:visited {
@@ -67,11 +67,6 @@ h1 {
     text-decoration: none;
     color: rgb(106, 106, 106);
 }
-/* article { */
-    /* background: rgb(60, 60, 60); */
-    /* width: 97%; */
-    /* height: 50%; */
-/* } */
 .main {
     width: 100%;
     height: 375px;
@@ -104,11 +99,6 @@ header {
     opacity: .9;
     color: white;
 }
-/* article { */
-/* padding-left: 10px; */
-/* padding-right: 10px; */
-/* text-align: left; */
-/* } */
 .ressurectedcover {
     max-width: 300px;
     max-height: 300px;
@@ -125,16 +115,13 @@ header {
     color: aliceblue;
     width: 100%;
     margin-top: 0px;
+    margin-bottom: -16px;
 }
 ul {
     list-style: none;
 }
-.first {
-    color: rgb(182, 177, 177);
-    font-size: 24px;
- }
 .vbtm li a {
-    padding: 15px;
+    padding: 5px;
     text-decoration: none;
     display: inline-block;
 }
@@ -144,16 +131,6 @@ ul {
 .vbtm li a:active {
     color: rgb(255, 0, 0);
 }
-.sub {
-    font-size: 13px;
-    color: white;
-    display: grid;
-    padding-top: 6px;
-}
-aside {
-    float: right;
-}
-
 .btmlinks {
     font-size: 125%;
     color: rgb(182, 177, 177);
@@ -175,4 +152,7 @@ aside {
 .socilinks {
     color: rgb(182, 177, 177);
     display: inline-block;
+}
+aside ul {
+    margin-left: -25px;
 }

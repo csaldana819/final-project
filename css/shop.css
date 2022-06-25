@@ -60,8 +60,8 @@ nav {
     background-color: rgb(0, 0, 0);
     color: aliceblue;
     width: 100%;
-    margin-top: 0px;
-    margin-bottom: -7px;
+    margin-top: 107px;
+    margin-bottom: -18px;
 }
 ul {
     list-style: none;
@@ -103,4 +103,28 @@ ul {
 .socilinks {
     color: rgb(182, 177, 177);
     display: inline-block;
+}
+.heroimg {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.centerphoto {
+text-align: center;
+}
+.leftwords {
+    color: white;
+    float: left;
+    width: 20%;
+    padding: 10px;
+    height: 50%;
+}
+.rightwords {
+    height: 50%;
+    width: 20%;
+    float: right;
+    color: white;
 }
